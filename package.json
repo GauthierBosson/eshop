@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.5",
     "@hookform/resolvers": "^2.8.2",
     "@next-auth/prisma-adapter": "^0.5.4",
     "@prisma/client": "^3.2.1",
@@ -22,6 +23,7 @@
     "axios": "^0.23.0",
     "bcrypt": "^5.0.1",
     "clsx": "^1.1.1",
+    "framer-motion": "^5.0.0",
     "next": "12.0.0",
     "next-auth": "^3.29.0",
     "next-connect": "^0.10.2",
@@ -51,6 +53,7 @@
     "cypress": "^8.6.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.3.1",
