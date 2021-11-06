@@ -12,9 +12,6 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <div>
-            zkedkdkdkdkdkdkdkdkdkkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdk
-          </div>
           <NextScript />
         </body>
       </Html>

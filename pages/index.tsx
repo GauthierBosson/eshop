@@ -9,7 +9,6 @@ const Home: NextPage = () => {
     <>
       <Hero />
       <ProductsList />
-      <BaseButton />
     </>
   )
 }
