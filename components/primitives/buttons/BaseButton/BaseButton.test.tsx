@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 
 import { Small, Medium, Large } from './BaseButton.stories'
 
-it('Renders the small button', function () {
+t('Renders the small button', function () {
   render(<Small {...Small.args} />)
   expect(screen.getByRole('button')).toHaveClass('p-2')
 })
