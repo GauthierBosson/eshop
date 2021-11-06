@@ -7,7 +7,7 @@ it('Renders the small button', function () {
   expect(screen.getByRole('button')).toHaveClass('p-2')
 })
 
-i('Renders the medium button', function () {
+it('Renders the medium button', function () {
   render(<Medium {...Medium.args} />)
   expect(screen.getByRole('button')).toHaveClass('p-6')
 })
