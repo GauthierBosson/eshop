@@ -9,6 +9,7 @@ const Home: NextPage = () => {
     <>
       <Hero />
       <ProductsList />
+      <div></div>
     </>
   )
 }
